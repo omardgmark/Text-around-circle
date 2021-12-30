@@ -7,7 +7,7 @@
     font-family: 'Poppins', sans-serif;
 }
 body{
-    background: rgb(199, 191, 191);
+    background: rgb(233, 227, 227);
 }
 section{
     position: relative;
@@ -23,5 +23,31 @@ section{
     height: 500px;
     float: left;  
     border-radius: 50%;
-    margin: 20px; 
+    margin: 10px; 
+    shape-outside: circle();
+}
+.circle.c2{
+    width: 350px;
+    height: 350px;
+    float: right;
+    border-radius: 50%;
+    margin: 10px;
+    shape-outside: circle();
+}
+.circle img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+section h2{
+    color: rgb(87, 7, 4);
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+section p{
+    color: rgb(19, 17, 44);
+    text-align: justify;
 }
